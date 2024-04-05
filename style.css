@@ -39,6 +39,33 @@ button {
   width: 100vw;
 }
 
+.header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header .header-content .header-left-items {
+  display: flex;
+  align-items: baseline;
+}
+
 .header .logo {
   width: 80px;
+}
+
+.header .header-list {
+  display: flex;
+}
+
+.header-list .subnav {
+  display: flex;
+}
+
+.header-list .subnav .list-heading {
+  position: relative;
+}
+
+.header-list .subnav .items {
+  position: absolute;
 }
