@@ -10,8 +10,5 @@
   },
   "devDependencies": {
     "vite": "^5.2.0"
-  },
-  "dependencies": {
-    "font-awesome": "^4.7.0"
   }
 }
