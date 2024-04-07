@@ -7,6 +7,7 @@
   --txt-color: #5c5856;
   --btn-hover: #351e7a;
   --hover-bg: #f5efeb;
+  --padding: 10px 15px;
 }
 
 /* .dm-serif display-regular-italic {
@@ -60,7 +61,7 @@ button {
 }
 
 .btn {
-  padding: 10px 15px;
+  padding: var(--padding);
   font-size: 18px;
   font-family: inherit;
   color: var(--secondary-color);
@@ -119,8 +120,7 @@ button {
   }
 }
 
-.header-list .subnav {
-  /* display: flex; */
+.subnav {
   display: none;
 }
 
@@ -129,6 +129,10 @@ button {
   font-weight: 400;
 }
 
-.header-list .subnav .items {
+.header-list .subnav {
   position: absolute;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 20px 2px #dbd6e8;
 }
