@@ -126,6 +126,7 @@ button {
 .subnav.show {
   display: flex;
   gap: 22px;
+  padding: 10px;
 }
 
 .header-list .subnav .list-heading {
@@ -146,17 +147,19 @@ button {
   box-shadow: 0px 0px 20px 2px #dbd6e8;
 }
 
+.subnav .list {
+  margin-bottom: 1.3em;
+}
+
 .subnav .list .items {
   color: var(--txt-color);
   margin-left: 0;
   padding-left: 0;
   font-size: 14px;
+  line-height: 2.5;
   letter-spacing: 1px;
 }
 .subnav .list:last-child {
   border-left: 1px solid lightgray;
   padding-left: 15px;
-}
-.subnav .list .items li {
-  margin-bottom: 12px;
 }
