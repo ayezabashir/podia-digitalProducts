@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 :root {
@@ -9,12 +8,6 @@
   --hover-bg: #f5efeb;
   --padding: 10px 15px;
 }
-
-/* .dm-serif display-regular-italic {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: italic;
-} */
 
 *,
 ::after,
@@ -88,7 +81,8 @@ img {
   color: #fff;
   font-weight: 600;
   border: 0;
-  padding: 15px 25px;
+  font-size: 16px;
+  padding: 13px 25px;
 }
 .primary-btn:hover {
   background: var(--btn-hover);
@@ -131,6 +125,7 @@ img {
   display: flex;
   gap: 22px;
   padding: 10px;
+  background: #fff;
 }
 
 .header-list .subnav .list-heading {
@@ -175,18 +170,34 @@ img {
 .main .hero .layout {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .main .hero .layout .text,
 .main .hero .layout .img {
   width: 50%;
 }
-.main .hero .layout .text p {
+.main .hero .layout .text h2 {
+  font-size: 2.7rem;
+  padding-right: 20px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.main .hero .layout .text .heading {
   font-size: 12px;
   color: gray;
   letter-spacing: 1px;
   font-weight: 600;
+  margin-bottom: 0;
   text-transform: uppercase;
+}
+.main .hero .layout .text p {
+  color: var(--txt-color);
+  line-height: 1.9;
 }
 .main .hero .layout .img img {
   border-radius: 10px;
+}
+.main .hero .layout figure {
+  margin-right: 0;
 }
