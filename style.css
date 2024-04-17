@@ -189,7 +189,8 @@ p {
 }
 .main .hero .layout .text .heading,
 .products .courses .text .heading,
-.templates .text .heading {
+.templates .text .heading,
+.coaches .text .heading {
   font-size: 12px;
   color: gray;
   letter-spacing: 1px;
@@ -264,19 +265,22 @@ p {
 }
 
 .products .courses .text h3,
-.templates .text h3 {
+.templates .text h3,
+.coaches .text h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
   font-weight: 600;
 }
 .products .courses .text p,
-.templates .text p {
+.templates .text p,
+.coaches .text p {
   font-size: 18px;
   padding-right: 5px;
 }
 .products .courses .text a,
-.templates .text a {
+.templates .text a,
+.coaches .text a {
   font-weight: 600;
   color: var(--primary-color);
   font-size: 17px;
@@ -315,7 +319,8 @@ p {
 }
 
 /* templates */
-.templates {
+.templates,
+.coaches {
   margin: 5rem auto;
   display: flex;
   justify-content: space-between;
