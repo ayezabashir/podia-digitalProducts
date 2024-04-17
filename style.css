@@ -188,7 +188,8 @@ p {
   margin-bottom: 0;
 }
 .main .hero .layout .text .heading,
-.products .courses .text .heading {
+.products .courses .text .heading,
+.templates .text .heading {
   font-size: 12px;
   color: gray;
   letter-spacing: 1px;
@@ -262,20 +263,29 @@ p {
   gap: 20px;
 }
 
-.products .courses .text h3 {
+.products .courses .text h3,
+.templates .text h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
   font-weight: 600;
 }
-.products .courses .text p {
+.products .courses .text p,
+.templates .text p {
   font-size: 18px;
   padding-right: 5px;
 }
-.products .courses .text a {
+.products .courses .text a,
+.templates .text a {
   font-weight: 600;
   color: var(--primary-color);
   font-size: 17px;
+  &:hover {
+    .fa-arrow-right {
+      transform: translateX(5px);
+      transition: all 0.3s ease-in-out;
+    }
+  }
 }
 
 /* feedback */
@@ -302,4 +312,13 @@ p {
 
 .feedback .text p:last-child {
   font-size: 18px;
+}
+
+/* templates */
+.templates {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
