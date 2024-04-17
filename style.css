@@ -277,3 +277,29 @@ p {
   color: var(--primary-color);
   font-size: 17px;
 }
+
+/* feedback */
+.feedback {
+  margin: 5rem auto;
+  text-align: center;
+}
+.feedback .ratings {
+  margin-bottom: 15px;
+}
+
+.feedback .ratings .fa-star {
+  color: #f5a733;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.feedback .text p:first-child {
+  color: #000;
+  font-family: "DM Serif Display", serif;
+  font-size: 23px;
+  margin: 0 auto;
+}
+
+.feedback .text p:last-child {
+  font-size: 18px;
+}
