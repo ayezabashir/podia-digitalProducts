@@ -187,7 +187,8 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-.main .hero .layout .text .heading {
+.main .hero .layout .text .heading,
+.products .courses .text .heading {
   font-size: 12px;
   color: gray;
   letter-spacing: 1px;
@@ -208,10 +209,9 @@ p {
   margin: 5rem auto;
   text-align: center;
 }
-.features .features-description {
-  padding: 0 4rem;
-}
-.features-description h3 {
+
+.features-description h3,
+.products .proucts-description h3 {
   font-size: 36px;
   margin-bottom: 0;
   letter-spacing: 0.1px;
@@ -232,7 +232,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: auto;
+  width: 33.3%;
 }
 
 .features-card .card .icon img {
@@ -247,4 +247,33 @@ p {
 
 .features-card .card p {
   font-size: 15px;
+}
+
+/* products */
+.products .proucts-description {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.products .courses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.products .courses .text h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+.products .courses .text p {
+  font-size: 18px;
+  padding-right: 5px;
+}
+.products .courses .text a {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 17px;
 }
