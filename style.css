@@ -98,10 +98,10 @@ p {
 
 .header {
   position: fixed;
-  width: 100%;
+  min-width: 100vw;
   background: #fff;
   top: 0;
-  padding: 15px 0;
+  padding: 15px 5rem;
 }
 
 .header .header-content {
