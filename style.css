@@ -101,7 +101,7 @@ p {
   min-width: 100vw;
   background: #fff;
   top: 0;
-  padding: 15px 5rem;
+  padding: 15px 6.4%;
 }
 
 .header .header-content {
@@ -292,7 +292,7 @@ p {
   &:hover {
     .fa-arrow-right {
       transform: translateX(5px);
-      transition: all 0.3s ease-in-out;
+      transition: all 0.1s ease-in-out;
     }
   }
 }
@@ -348,7 +348,7 @@ p {
 
 .signup p {
   color: #d7d2e8;
-  font-size: 17px;
+  font-size: 18px;
   margin-top: 5px;
 }
 
@@ -356,8 +356,13 @@ p {
   background: #9484c6;
   color: #fff;
   border: none;
+  margin-top: 22px;
   padding: 12px 25px;
   font-weight: 600;
+  &:hover {
+    transition: 0.1s all ease-in;
+    background: var(--btn-hover);
+  }
 }
 
 .footer {
@@ -382,7 +387,6 @@ p {
 .footer .footer-links ul {
   display: flex;
   gap: 20px;
-  text-decoration: underline;
   color: gray;
   font-size: 17px;
 }
@@ -391,8 +395,10 @@ p {
 .footer .copyrights ul li {
   color: gray;
   cursor: pointer;
+  border-bottom: 2px solid;
   &:hover {
     color: var(--primary-color);
+    border-color: var(--primary-color);
   }
 }
 
@@ -407,5 +413,22 @@ p {
 .footer .copyrights ul {
   display: flex;
   gap: 20px;
-  text-decoration: underline;
+}
+
+.lg-hidden {
+  display: none;
+}
+
+.md-hidden {
+  display: block;
+}
+
+@media screen and (max-width: 900px) {
+  .lg-hidden {
+    display: block;
+  }
+
+  .md-hidden {
+    display: none;
+  }
 }
