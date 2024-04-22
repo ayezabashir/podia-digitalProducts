@@ -426,6 +426,15 @@ p {
 @media screen and (max-width: 900px) {
   .lg-hidden {
     display: block;
+    position: relative;
+  }
+  .mb-menu-items {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 15px;
+    position: absolute;
+    top: 25px;
+    background: #fff;
   }
 
   .md-hidden {
