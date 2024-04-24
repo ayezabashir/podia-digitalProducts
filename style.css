@@ -435,6 +435,7 @@ p {
     position: absolute;
     top: 25px;
     background: #fff;
+    min-width: 100vw;
   }
 
   .md-hidden {

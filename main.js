@@ -1,5 +1,5 @@
 const dropdownNavs = document.querySelectorAll('.dropdownNav');
-const mbMenu = document.querySelector('. mb-menu');
+const mbMenu = document.querySelector('.mb-menu');
 
 dropdownNavs.forEach((dropdownNav) => {
     dropdownNav.addEventListener('click', (event) => {
