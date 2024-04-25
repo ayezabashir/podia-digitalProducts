@@ -442,3 +442,27 @@ p {
     display: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 18px;
+  }
+  .main .hero .layout {
+    flex-direction: column-reverse;
+  }
+  .main .hero .layout .text,
+  .main .hero .layout .img {
+    width: 100%;
+  }
+  .main .hero .layout .text {
+    margin-top: 50px;
+  }
+  .main .hero .layout .text h2 {
+    font-size: 1.7rem;
+    padding-right: 0;
+  }
+  .main .hero .layout .text h2 {
+    font-size: 1.7rem;
+    padding-right: 0;
+  }
+}
