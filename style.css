@@ -185,6 +185,9 @@ p {
 .main .hero .layout .img {
   width: 50%;
 }
+.main .hero .layout .text .btn {
+  margin-top: 10px;
+}
 .main .hero .layout .text h2 {
   font-size: 2.7rem;
   padding-right: 20px;
@@ -457,12 +460,28 @@ p {
   .main .hero .layout .text {
     margin-top: 50px;
   }
-  .main .hero .layout .text h2 {
-    font-size: 1.7rem;
+  .main .hero .layout .text p {
+    font-size: 1.1rem;
     padding-right: 0;
   }
   .main .hero .layout .text h2 {
     font-size: 1.7rem;
     padding-right: 0;
+  }
+  .features-description {
+    margin-bottom: 30px;
+  }
+  .features-description h3,
+  .products .proucts-description h3 {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .features-card {
+    flex-direction: column;
+  }
+
+  .features-card .card {
+    width: 100%;
   }
 }
