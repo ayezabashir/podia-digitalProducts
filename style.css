@@ -484,4 +484,27 @@ p {
   .features-card .card {
     width: 100%;
   }
+  .products .courses {
+    flex-direction: column-reverse;
+  }
+  .products .courses .text h3,
+  .templates .text h3,
+  .coaches .text h3 {
+    font-size: 22px;
+    margin-top: 6px;
+  }
+  .products .courses .text p,
+  .templates .text p,
+  .coaches .text p {
+    font-size: 16px;
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+  .feedback .text p:first-child {
+    font-size: 20px;
+  }
+
+  .feedback .text p:last-child {
+    font-size: 16px;
+  }
 }
