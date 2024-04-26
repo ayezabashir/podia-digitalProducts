@@ -507,4 +507,14 @@ p {
   .feedback .text p:last-child {
     font-size: 16px;
   }
+  .templates,
+  .coaches {
+    flex-direction: column-reverse;
+  }
+  .signup {
+    padding: 2rem 1.5rem;
+  }
+  .signup h2 {
+    font-size: 1.7rem;
+  }
 }
