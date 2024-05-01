@@ -426,6 +426,10 @@ p {
   display: block;
 }
 
+.hide {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   .lg-hidden {
     display: block;
@@ -437,8 +441,30 @@ p {
     padding: 15px;
     position: absolute;
     top: 25px;
+    left: 0;
     background: #fff;
     min-width: 100vw;
+  }
+  .mb-menu-items .mb-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+  }
+  .mb-menu-items .mb-header p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .mb-menu-items .mb-header i {
+    cursor: pointer;
+  }
+  .mb-menu-items ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
   }
 
   .md-hidden {

@@ -1,5 +1,7 @@
 const dropdownNavs = document.querySelectorAll('.dropdownNav');
-const mbMenu = document.querySelector('.mb-menu');
+const mbOpenMenu = document.querySelector('.mb-menu');
+const mbMenu = document.querySelector('.mb-menu-items');
+const closeMenu = document.getElementById('closeMenus');
 
 dropdownNavs.forEach((dropdownNav) => {
     dropdownNav.addEventListener('click', (event) => {
@@ -22,6 +24,10 @@ document.addEventListener('click', () => {
     });
 });
 
-mbMenu.addEventListener('click', () => {
+mbOpenMenu.addEventListener('click', () => {
+    mbMenu.classList.remove('hide')
+})
 
+closeMenu.addEventListener('click', () => {
+    mbMenu.classList.add('hide');
 })
