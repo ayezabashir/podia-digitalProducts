@@ -2,6 +2,7 @@ const dropdownNavs = document.querySelectorAll('.dropdownNav');
 const mbOpenMenu = document.querySelector('.mb-menu');
 const mbMenu = document.querySelector('.mb-menu-items');
 const closeMenu = document.getElementById('closeMenus');
+const mbList = document.querySelectorAll('.mb-list li');
 
 dropdownNavs.forEach((dropdownNav) => {
     dropdownNav.addEventListener('click', (event) => {
@@ -30,4 +31,12 @@ mbOpenMenu.addEventListener('click', () => {
 
 closeMenu.addEventListener('click', () => {
     mbMenu.classList.add('hide');
+})
+
+mbList.forEach((list) => {
+    let navBtn = list.querySelector('.mbNav');
+    let navItems = list.querySelector('.mb-subnav');
+    navBtn.addEventListener('click', () => {
+        navItems.classList.toggle('hide')
+    })
 })

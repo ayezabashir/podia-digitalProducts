@@ -233,7 +233,8 @@ p {
   justify-content: space-between;
   align-items: baseline;
   gap: 30px;
-  margin: 0 auto;
+  margin-top: 20px;
+  margin: 50px auto;
 }
 
 .features-card .card {
@@ -439,11 +440,12 @@ p {
     border: 1px solid lightgray;
     border-radius: 15px;
     padding: 15px;
-    position: absolute;
-    top: 25px;
+    position: fixed;
+    top: 0;
     left: 0;
     background: #fff;
     min-width: 100vw;
+    transition: all 0.5s ease-in-out;
   }
   .mb-menu-items .mb-header {
     display: flex;
@@ -459,9 +461,6 @@ p {
     cursor: pointer;
   }
   .mb-menu-items ul li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 15px 0;
     font-family: "DM Serif Display", serif;
     font-size: 20px;
@@ -469,6 +468,30 @@ p {
 
   .md-hidden {
     display: none;
+  }
+  .mb-subnav {
+    color: #5c5856;
+  }
+  .mbNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mb-subnav .list .list-heading {
+    margin-top: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  .mb-subnav .list .items li {
+    font-size: 14px;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+      "Helvetica Neue", sans-serif;
   }
 }
 
