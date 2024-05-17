@@ -465,6 +465,9 @@ p {
     font-family: "DM Serif Display", serif;
     font-size: 20px;
   }
+  .main .hero .layout .text h2 {
+    font-size: 2rem;
+  }
 
   .md-hidden {
     display: none;
@@ -492,6 +495,27 @@ p {
     font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
       "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
       "Helvetica Neue", sans-serif;
+  }
+  .mb-footer ul li .footerBtn {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .mb-footer ul li .footerItems {
+    font-size: 14px;
+    color: var(--txt-color);
+  }
+  .mb-footer ul li .footerItems ul li {
+    margin: 10px 0;
+    text-decoration: underline;
+    font-weight: 300;
+    cursor: pointer;
+    &:hover {
+      color: var(--primary-color);
+    }
   }
 }
 
