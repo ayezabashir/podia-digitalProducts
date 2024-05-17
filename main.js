@@ -2,7 +2,11 @@ const dropdownNavs = document.querySelectorAll('.dropdownNav');
 const mbOpenMenu = document.querySelector('.mb-menu');
 const mbMenu = document.querySelector('.mb-menu-items');
 const closeMenu = document.getElementById('closeMenus');
-const mbList = document.querySelectorAll('.mb-list li');
+const mbNav1 = document.querySelector('.mbNav1');
+const mbNav2 = document.querySelector('.mbNav2');
+const mbNav3 = document.querySelector('.mbNav3');
+const mbNav4 = document.querySelector('.mbNav4');
+
 
 dropdownNavs.forEach((dropdownNav) => {
     dropdownNav.addEventListener('click', (event) => {
@@ -33,10 +37,19 @@ closeMenu.addEventListener('click', () => {
     mbMenu.classList.add('hide');
 })
 
-mbList.forEach((list) => {
-    let navBtn = list.querySelector('.mbNav');
-    let navItems = list.querySelector('.mb-subnav');
-    navBtn.addEventListener('click', () => {
-        navItems.classList.toggle('hide')
-    })
+mbNav1.addEventListener('click', () => {
+    const mbnavItem = document.querySelector('.subnav1');
+    mbnavItem.classList.toggle('hide');
+})
+mbNav2.addEventListener('click', () => {
+    const mbnavItem = document.querySelector('.subnav2');
+    mbnavItem.classList.toggle('hide');
+})
+mbNav3.addEventListener('click', () => {
+    const mbnavItem = document.querySelector('.subnav3');
+    mbnavItem.classList.toggle('hide');
+})
+mbNav4.addEventListener('click', () => {
+    const mbnavItem = document.querySelector('.subnav4');
+    mbnavItem.classList.toggle('hide');
 })
