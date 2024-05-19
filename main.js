@@ -62,36 +62,50 @@ mbNav4.addEventListener('click', () => {
 })
 footerBtn1.addEventListener('click', () => {
     const listItem = document.getElementById('footerItem1');
+    const icon = document.querySelector('.icon1');
+    icon.classList.toggle('toggleicon');
     listItem.classList.toggle('hide')
 })
 
 footerBtn2.addEventListener('click', () => {
     const listItem = document.getElementById('footerItem2');
+    const icon = document.querySelector('.icon2');
+    icon.classList.toggle('toggleicon');
     listItem.classList.toggle('hide')
 })
 
 footerBtn3.addEventListener('click', () => {
     const listItem = document.getElementById('footerItem3');
     listItem.classList.toggle('hide')
+    const icon = document.querySelector('.icon3');
+    icon.classList.toggle('toggleicon');
 })
 
 footerBtn4.addEventListener('click', () => {
     const listItem = document.getElementById('footerItem4');
     listItem.classList.toggle('hide')
+    const icon = document.querySelector('.icon4');
+    icon.classList.toggle('toggleicon');
 })
 
 footerBtn5.addEventListener('click', () => {
     const listItem = document.getElementById('footerItem5');
     listItem.classList.toggle('hide')
+    const icon = document.querySelector('.icon5');
+    icon.classList.toggle('toggleicon');
 })
 
 footerBtn6.addEventListener('click', () => {
     const listItem = document.getElementById('footerItem6');
     listItem.classList.toggle('hide')
+    const icon = document.querySelector('.icon6');
+    icon.classList.toggle('toggleicon');
 })
 
 footerBtn7.addEventListener('click', () => {
     const listItem = document.getElementById('footerItem7');
+    const icon = document.querySelector('.icon7');
+    icon.classList.toggle('toggleicon');
     listItem.classList.toggle('hide')
 })
 
